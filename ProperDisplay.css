@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Avestan&family=Noto+Sans+Balinese&family=Noto+Sans+Batak&family=Noto+Sans+Bhaiksuki&family=Noto+Sans+Buhid&family=Noto+Sans+Cham&family=Noto+Sans+Deseret&family=Noto+Sans+Elbasan&family=Noto+Sans+Grantha&family=Noto+Sans+Hanifi+Rohingya&family=Noto+Sans+Hanunoo&family=Noto+Sans+Kaithi&family=Noto+Sans+Khudawadi&family=Noto+Sans+Lepcha&family=Noto+Sans+Limbu&family=Noto+Sans+Linear+A&family=Noto+Sans+Linear+B&family=Noto+Sans+Mandaic&family=Noto+Sans+Marchen&family=Noto+Sans+Nushu&family=Noto+Sans+Old+Hungarian&family=Noto+Sans+Pahawh+Hmong&family=Noto+Sans+Psalter+Pahlavi&family=Noto+Sans+Sharada&family=Noto+Sans+Siddham&family=Noto+Sans+Sundanese&family=Noto+Sans+Syloti+Nagri&family=Noto+Sans+Symbols+2&family=Noto+Sans+Tagalog&family=Noto+Sans+Tai+Viet&family=Noto+Serif+Ahom&family=Noto+Serif+Tangut&family=Noto+Serif+Toto&family=Noto+Serif+Yezidi&display=swap');
+@font-face {
+    font-family: "Constructium";
+    src: url("//cdn.jsdelivr.net/gh/kreativekorp/open-relay@master/Constructium/Constructium.ttf");
+}
+@font-face {
+    font-family: "Hentaigana Sans";
+    src: url("//cdn.jsdelivr.net/gh/Hulenkius/hentaigana-sans@master/TTF/hentaigana-sans-Regular.ttf");
+}
+@font-face {
+    font-family: "Noto Sans Tangsa";
+    src: url("//notofonts.github.io/tangsa/fonts/NotoSansTangsa/googlefonts/ttf/NotoSansTangsa-Regular.ttf");
+}
+@font-face {
+    font-family: "SignWriting 2010";
+    src: url("//cdn.jsdelivr.net/gh/Slevinski/signwriting_2010_fonts@master/fonts/SignWriting%202010.ttf");
+}
+@font-face {
+    font-family: "PKAAOE+KaktovikBartley1997";
+    src: url("//tnhung2011.github.io/PKAAOE-KaktovikBartley1997/PKAAOE%2BKaktovikBartley1997.ttf");
+}
+span[lang="ae"] {
+    font-family: "Noto Sans Avestan", sans-serif;
+}
+span[lang="ase-Sgnw"] {
+    font-family: "SignWriting 2010", sans-serif;
+}
+span[lang="ban-Bali"] {
+    font-family: "Noto Sans Balinese", sans-serif;
+}
+span[lang="bku-Buhd"] {
+    font-family: "Noto Sans Buhid", sans-serif;
+}
+span[lang="blt-Tavt"] {
+    font-family: "Noto Sans Tai Viet", sans-serif;
+}
+span[lang="bya-Batk"] {
+    font-family: "Noto Sans Batak", sans-serif;
+}
+span[lang="cja-Cham"] {
+    font-family: "Noto Sans Cham", sans-serif;
+}
+span[lang="en-Dsrt"] {
+	font-family: "Noto Sans Deseret", sans-serif;
+}
+span[lang="lif-Limb"] {
+    font-family: "Noto Sans Limbu", sans-serif;
+}
+span[lang="lab-Lina"] {
+    font-family: "Noto Sans Linear A", sans-serif;
+}
+span[lang="gmy-Linb"],
+span[lang="grc-Linb"] {
+    font-family: "Noto Sans Linear B", sans-serif;
+}
+span[lang="hmn"] {
+    font-family: "Noto Sans Pahawh Hmong", sans-serif;
+}
+span[lang="hu-Hung"] {
+    font-family: "Noto Sans Old Hungarian", sans-serif;
+}
+span[lang="ja-Hira"],
+.hentaigana[lang="ja"] {
+    font-family: "Hentaigana Sans", sans-serif;
+}
+span[lang="hmn-Hmnp"] {
+    font-family: "Noto Serif Nyiakeng Puachue Hmong", sans-serif;
+}
+span[lang="mid-Mand"] {
+    font-family: "Noto Sans Mandaic", sans-serif;
+}
+span[lang="pal-Phlp"] {
+    font-family: "Noto Sans Psalter Pahlavi", sans-serif;
+}
+span[lang="rhg"] {
+    font-family: "Noto Sans Hanifi Rohingya", sans-serif;
+}
+span[lang="sazo-Nshu"] {
+    font-family: "Noto Sans Nushu", sans-serif;
+}
+span[lang="sq-Elba"] {
+    font-family: "Noto Sans Elbasan", sans-serif;
+}
+span[lang="tl-Tglg"] {
+    font-family: "Noto Sans Tagalog", sans-serif;
+}
+span[lang="txg-Tang"] {
+    font-family: "Noto Serif Tangut", sans-serif;
+}
+span[lang="txo-Toto"] {
+    font-family: "Noto Serif Toto", sans-serif;
+}
+span[lang="xzh-Marc"] {
+    font-family: "Noto Sans Marchen", sans-serif;
+}
+.Unicode {
+    font-family: "Noto Sans Deseret", "Noto Sans Old Hungarian", sans-serif, "Noto Sans Tangsa", "Noto Serif Toto";
+}
+p {
+    font-family: "Noto Sans Linear B", sans-serif;
+}
+.wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
+    font-family: "Noto Sans Marchen", "Noto Sans Nushu", "Noto Sans Linear A", "Noto Sans Linear B", "PKAAOE+KaktovikBartley1997", sans-serif, "Noto Sans Tangsa", "Noto Serif Toto", "Noto Sans Symbols 2";
+}
