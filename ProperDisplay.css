@@ -17,7 +17,7 @@
 }
 @font-face {
     font-family: "PKAAOE+KaktovikBartley1997";
-    src: url("//tnhung2011.github.io/PKAAOE-KaktovikBartley1997/PKAAOE%2BKaktovikBartley1997.ttf");
+    src: url("//cdn.jsdelivr.net/gh/tnhung2011/PKAAOE-KaktovikBartley1997@main/PKAAOE%2BKaktovikBartley1997.ttf");
 }
 span[lang="ae"] {
     font-family: "Noto Sans Avestan", sans-serif;
