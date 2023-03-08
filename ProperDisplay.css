@@ -66,7 +66,8 @@ span[lang="ja-Hira"],
 span[lang="hmn-Hmnp"] {
     font-family: "Noto Serif NP Hmong", sans-serif;
 }
-span[lang="mid-Mand"] {
+span[lang="mid-Mand"],
+span[lang="myz"] {
     font-family: "Noto Sans Mandaic", sans-serif;
 }
 span[lang="pal-Phlp"] {
