@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Avestan&family=Noto+Sans+Balinese&family=Noto+Sans+Batak&family=Noto+Sans+Bhaiksuki&family=Noto+Sans+Buhid&family=Noto+Sans+Cham&family=Noto+Sans+Deseret&family=Noto+Sans+Elbasan&family=Noto+Sans+Grantha&family=Noto+Sans+Hanifi+Rohingya&family=Noto+Sans+Hanunoo&family=Noto+Sans+Kaithi&family=Noto+Sans+Khudawadi&family=Noto+Sans+Lepcha&family=Noto+Sans+Limbu&family=Noto+Sans+Linear+A&family=Noto+Sans+Linear+B&family=Noto+Sans+Mandaic&family=Noto+Sans+Marchen&family=Noto+Sans+Nushu&family=Noto+Sans+Old+Hungarian&family=Noto+Sans+Pahawh+Hmong&family=Noto+Sans+Psalter+Pahlavi&family=Noto+Sans+Sharada&family=Noto+Sans+Siddham&family=Noto+Sans+Sundanese&family=Noto+Sans+Syloti+Nagri&family=Noto+Sans+Symbols+2&family=Noto+Sans+Tagalog&family=Noto+Sans+Tai+Viet&family=Noto+Serif+Ahom&family=Noto+Serif+NP+Hmong&family=Noto+Serif+Tangut&family=Noto+Serif+Toto&family=Noto+Serif+Yezidi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Avestan&family=Noto+Sans+Balinese&family=Noto+Sans+Batak&family=Noto+Sans+Bhaiksuki&family=Noto+Sans+Buhid&family=Noto+Sans+Cham&family=Noto+Sans+Deseret&family=Noto+Sans+Elbasan&family=Noto+Sans+Grantha&family=Noto+Sans+Hanifi+Rohingya&family=Noto+Sans+Hanunoo&family=Noto+Sans+Kaithi&family=Noto+Sans+Khudawadi&family=Noto+Sans+Lepcha&family=Noto+Sans+Limbu&family=Noto+Sans+Linear+A&family=Noto+Sans+Linear+B&family=Noto+Sans+Mandaic&family=Noto+Sans+Marchen&family=Noto+Sans+Newa&family=Noto+Sans+Nushu&family=Noto+Sans+Old+Hungarian&family=Noto+Sans+Pahawh+Hmong&family=Noto+Sans+Psalter+Pahlavi&family=Noto+Sans+Sharada&family=Noto+Sans+Siddham&family=Noto+Sans+Sundanese&family=Noto+Sans+Syloti+Nagri&family=Noto+Sans+Symbols+2&family=Noto+Sans+Tagalog&family=Noto+Sans+Tai+Viet&family=Noto+Serif+Ahom&family=Noto+Serif+NP+Hmong&family=Noto+Serif+Tangut&family=Noto+Serif+Toto&family=Noto+Serif+Yezidi&display=swap');
 @font-face {
     font-family: "Constructium";
     src: url("//cdn.jsdelivr.net/gh/kreativekorp/open-relay@master/Constructium/Constructium.ttf");
@@ -6,6 +6,10 @@
 @font-face {
     font-family: "Hentaigana Sans";
     src: url("//cdn.jsdelivr.net/gh/Hulenkius/hentaigana-sans@master/TTF/hentaigana-sans-Regular.ttf");
+}
+@font-face {
+    font-family: "Noto Sans Nag Mundari";
+    src: url("//notofonts.github.io/nag-mundari/fonts/NotoSansNagMundari/googlefonts/ttf/NotoSansNagMundari-Regular.ttf")
 }
 @font-face {
     font-family: "Noto Sans Tangsa";
@@ -94,8 +98,11 @@ span[lang="txo-Toto"] {
 span[lang="xzh-Marc"] {
     font-family: "Noto Sans Marchen", sans-serif;
 }
+.script-Newa {
+    font-family: sans-serif, "Noto Sans Newa";
+}
 .Unicode {
-    font-family: "Noto Sans Deseret", "Noto Sans Old Hungarian", sans-serif, "Noto Sans Tangsa", "Noto Serif Toto";
+    font-family: "Noto Sans Deseret", "Noto Sans Old Hungarian", sans-serif, "Noto Sans Nag Mundari", "Noto Sans Tangsa", "Noto Serif Toto";
 }
 p {
     font-family: "Noto Sans Linear B", sans-serif;
