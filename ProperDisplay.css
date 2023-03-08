@@ -2,6 +2,7 @@
 @font-face {
     font-family: "Constructium";
     src: url("//cdn.jsdelivr.net/gh/kreativekorp/open-relay@master/Constructium/Constructium.ttf");
+    unicode-range: U+E000-E0FF, U+F0000-F0E6F;
 }
 @font-face {
     font-family: "Hentaigana Sans";
@@ -9,7 +10,8 @@
 }
 @font-face {
     font-family: "Noto Sans Nag Mundari";
-    src: url("//notofonts.github.io/nag-mundari/fonts/NotoSansNagMundari/googlefonts/ttf/NotoSansNagMundari-Regular.ttf")
+    src: url("//notofonts.github.io/nag-mundari/fonts/NotoSansNagMundari/googlefonts/ttf/NotoSansNagMundari-Regular.ttf");
+    unicode-range: U+1E4D0-U+1E4FF;
 }
 @font-face {
     font-family: "SignWriting 2010";
@@ -61,7 +63,7 @@ span[lang="hu-Hung"] {
 }
 span[lang="ja-Hira"],
 .hentaigana[lang="ja"] {
-    font-family: "Hentaigana Sans", sans-serif;
+    font-family: "Hentaigana Sans", sans-serif !important;
 }
 span[lang="hmn-Hmnp"] {
     font-family: "Noto Serif NP Hmong", sans-serif;
@@ -97,9 +99,6 @@ span[lang="xzh-Marc"] {
 .Unicode {
     font-family: "Noto Sans Deseret", "Noto Sans Old Hungarian", sans-serif, "Noto Sans Nag Mundari", "Noto Sans Tangsa", "Noto Serif Toto";
 }
-p {
-    font-family: "Noto Sans Linear B", sans-serif;
-}
 .wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
-    font-family: "Noto Sans Marchen", "Noto Sans Nushu", "Noto Sans Linear A", "Noto Sans Linear B", "PKAAOE+KaktovikBartley1997", sans-serif, "Noto Sans Tangsa", "Noto Serif Toto", "Noto Sans Symbols 2";
+    font-family: "Hentaigana Sans", "Noto Sans Marchen", "Noto Sans Nushu", "Noto Sans Linear A", "Noto Sans Linear B", "PKAAOE+KaktovikBartley1997", sans-serif, "Noto Sans Tangsa", "Noto Serif Toto", "Noto Sans Symbols 2";
 }
