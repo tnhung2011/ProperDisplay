@@ -100,5 +100,8 @@ span[lang="xzh-Marc"] {
     font-family: "Noto Sans Deseret", "Noto Sans Old Hungarian", sans-serif, "Noto Sans Nag Mundari", "Noto Sans Tangsa", "Noto Serif Toto";
 }
 .wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
-    font-family: "Hentaigana Sans", "Noto Sans Marchen", "Noto Sans Nushu", "Noto Sans Linear A", "Noto Sans Linear B", "PKAAOE+KaktovikBartley1997", sans-serif, "Noto Sans Tangsa", "Noto Serif Toto", "Noto Sans Symbols 2";
+    font-family: "Noto Sans Marchen", "Noto Sans Nushu", "Noto Sans Linear A", "Noto Sans Linear B", "PKAAOE+KaktovikBartley1997", sans-serif, "Noto Sans Tangsa", "Noto Serif Toto", "Noto Sans Symbols 2";
+}
+.mw-parser-output .UnicodeKanaSupplementChart tr:not([lang|=en]):not([lang|=mul]) td:not([lang|=en]):not([lang|=mul]) {
+    font-family: "Hentaigana Sans", sans-serif;
 }
