@@ -96,6 +96,9 @@ span[lang="txo-Toto"] {
 span[lang="xzh-Marc"] {
     font-family: "Noto Sans Marchen", sans-serif;
 }
+.brai_cell {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+}
 .Unicode {
     font-family: "Noto Sans Deseret", "Noto Sans Old Hungarian", sans-serif, "Noto Sans Nag Mundari", "Noto Sans Tangsa", "Noto Serif Toto";
 }
